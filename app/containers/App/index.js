@@ -9,6 +9,6 @@
 import React from 'react';
 export default function App() {
   return (
-   <div>UI with bootstrap</div>
+   <div>FRON END</div>
   );
 }
