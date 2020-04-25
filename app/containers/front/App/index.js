@@ -12,6 +12,6 @@ import React from 'react';
 
 export default function App() {
   return (
-   <div>FRON ENDf </div>
+   <div>FRON END</div>
   );
 }
