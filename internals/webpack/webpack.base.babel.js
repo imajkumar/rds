@@ -18,7 +18,12 @@ module.exports = options => ({
   ), // Merge with env dependent settings
   optimization: options.optimization,
   module: {
+   
     rules: [
+      {
+        test: /\.scss$/,
+        use:['style-loader','css-loader', 'sass-loader']
+     },
       {
         test: /\.jsx?$/, // Transform all .js and .jsx files required somewhere with Babel
         exclude: /node_modules/,
@@ -85,7 +90,7 @@ module.exports = options => ({
                 optimizationLevel: 7,
               },
               pngquant: {
-                quality: '65-90',
+                quality: [0.65, 0.90],
                 speed: 4,
               },
             },
