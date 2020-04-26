@@ -10,12 +10,12 @@ const LogIn = () => (
     <div className="account__wrapper">
       <div className="account__card">
         <div className="account__head">
-          <h3 className="account__title">Welcome to
-            <span className="account__logo"> Easy
-              <span className="account__logo-accent">DEV</span>
+          <h3 className="account__title">examclass
+            <span className="account__logo"> .
+              <span className="account__logo-accent">in</span>
             </span>
           </h3>
-          <h4 className="account__subhead subhead">Start your business easily</h4>
+          <h4 className="account__subhead subhead">Your education network</h4>
         </div>
         {/* <LogInForm onSubmit /> */}
         <LogInForm onSubmit />
