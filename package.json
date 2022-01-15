@@ -150,7 +150,7 @@
     "react-testing-library": "8.0.1",
     "rimraf": "3.0.2",
     "sass-loader": "^8.0.2",
-    "shelljs": "0.8.4",
+    "shelljs": "0.8.5",
     "style-loader": "1.2.0",
     "stylelint": "13.3.3",
     "stylelint-config-recommended": "3.0.0",
